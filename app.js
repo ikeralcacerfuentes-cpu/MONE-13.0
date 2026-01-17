@@ -6,7 +6,7 @@
 // + Date/Time selector
 // ============================
 
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxzanIIth6mtTymCyoLIMn7w38_ShpSG3zKHAOgInLo0_8F8YqX-yLhwTaA--ckexqUNA/exec"; // <- pon tu URL
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxzanIIth6mtTymCyoLIMn7w38_ShpSG3zKHAOgInLo0_8F8YqX-yLhwTaA--ckexqUNA/exec?action=ping"; // <- pon tu URL
 
 const LS_SESSION = "mone_session";
 function loadSession(){ try{return JSON.parse(localStorage.getItem(LS_SESSION));}catch{return null;} }
